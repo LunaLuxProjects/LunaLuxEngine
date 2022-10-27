@@ -1,0 +1,3 @@
+[submodule "LibOS"]
+	path = LibOS
+	url = https://github.com/LunaLuxProjects/LibOS.git
