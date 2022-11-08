@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.22.0)
+project(repo CXX)
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/LibOS/CMake_Modules)
+include_directories(${PROJECT_SOURCE_DIR}/LibOS/Includes)
+add_subdirectory(LibOS)
+add_subdirectory(engine)
+add_subdirectory(game)
